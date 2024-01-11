@@ -24,20 +24,24 @@
 
 ## Shell setup (macOS & Linux)
 - [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
-  [`brew install zsh`]
+  `brew install zsh`
 - [oh-my-zsh](https://ohmyz.sh/#install)
-  [`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`]
+  `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-  [`git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k`]
+  `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k`
 - [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions)
-  [`git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh`]
+  `git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh`
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) 
-  [`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh`]
+  `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh`
 
 ## Tmux setup 
 - [tmux](https://github.com/tmux/tmux/wiki/Installing)
-  [`brew install tmux`]
+  `brew install tmux`
 - [tpm](https://github.com/tmux-plugins/tpm)
-  [`git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`]
+  `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
+## Update script
+  `cp -r ~/.config/nvim nvim`
+  `cp ~/.tmux.conf .tmux.conf`
+  `cp ~/.zshrc .zshrc`
